@@ -19,13 +19,13 @@ body{
 }
 .forminscript {
     border: 1px solid;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-top: 50px;
     margin: 0 auto;
     background-color:#f1bfbf ;
     margin-top: 70px;
-    width: 30%;
+    width: 55%;
     border: none;
 }
 .same{
@@ -64,3 +64,11 @@ button{
     border-radius: 5px;
     margin-bottom: 30px;
 }
+
+input:invalid {
+    border: 2px dashed red;
+  }
+  
+input:valid {
+    border: 1px solid black;
+  }
