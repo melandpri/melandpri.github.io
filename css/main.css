@@ -1,0 +1,361 @@
+/*ceci me permet  d' utiliser ma police roboto en local */
+@font-face {
+	font-family: Roboto;
+	src:url(../Roboto/Roboto-Regular.ttf)
+}
+
+@font-face {
+	font-family: Roboto-bold;
+	src:url(../Roboto/Roboto-Bold.ttf)
+}
+
+#container{
+    width:992px;
+    margin: 0 auto;
+}
+
+* {
+	font-family: Roboto;
+	box-sizing: border-box;
+}
+
+
+/*gestion du menu 1*/
+
+#main1{
+    display: flex;
+    width:100%;
+    margin-top: 20px;
+}
+#main1_gauche button:hover {
+    background-color: #212245;
+}
+
+#main1_gauche * {
+    margin: 0;
+}
+
+#main1_gauche, #main1_droite {
+    width: 50%;
+
+}
+
+#main1_gauche{
+    height:300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+#main1_gauche > .com {
+    font-size:30px;
+}
+
+#main1_gauche > button {
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    font-size: medium;
+    font-weight: 500;
+    background-color: #df2020;
+    padding: 10px ;
+    border-radius: 25px;
+    border: none;
+    color: white;
+}
+
+#main1_gauche .fleche {
+    display: inline-block;
+    width: 10px; height: 10px;
+    border-bottom: 3px solid white;
+    border-right: 3px solid white;
+    transform: rotateZ(-45deg);
+    margin-left: 12px;
+}
+
+
+#main1_gauche > .coller > h1 {
+    text-transform: uppercase;
+    color: #df2020;
+} 
+
+#main1_droite {
+    height: 400px;
+    overflow: hidden;/*masque si ca dépasse*/
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+#main1_droite div{
+    width: 90%;
+}
+
+#livraison {
+    display: flex;
+    justify-content:flex-start;
+}
+.livr_img {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    padding:0;
+    font-size: 10px;
+}
+
+#main1_gauche .livr_img  + .livr_img {
+    margin-left: 24px;
+}
+
+.livr_img i{
+    width: 20px;
+    height:20px;
+    border-radius: 50%;
+    background-color: #df2020;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+#main1_gauche .livr_img p{
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+
+/*gestion du menu 2*/
+
+
+#main2{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    align-items: center;
+
+}
+
+
+.bloc_eat {
+    display: flex;
+    justify-content: space-between;
+    width: 23%;
+    background-color: #f1bfbf;
+    align-items: center;
+    border-radius:5px;
+    padding:10px;
+    transition: transform 1s;
+
+}
+.bloc_eat:hover{
+    transform: translateY(-25px);
+}
+.bloc_eat > div,.bloc_eat > p{
+    width: 30%;
+    margin-left: 24px;
+
+}
+.bloc_eat > p{
+    width: 50%;
+
+}
+
+
+
+
+
+
+.nom{
+    margin-left: 20px;
+}
+
+
+/*gestion du menu 3.*/
+
+#main3{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top:30px;
+
+
+}
+#main3 p{
+    margin: 0;
+}
+
+.rouge{
+    color:#df2020;
+    font-size: 35px;
+
+}
+.blu{
+    color: #212245;
+    font-weight: bolder;
+    font-size: 30px;
+
+}
+.lorem{
+    color: #333;
+
+}
+/* gestion du menu 4*/
+#main4{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.service{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+}
+.service > div{
+    width: 70%;
+} 
+.texteservice{
+    text-align: center;
+}
+.nomservice{
+    text-transform: capitalize;
+    font-size: 25px;
+}
+h4{
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: bolder;
+    
+    font-size: 30px;
+}
+
+/*gestion du menu 5*/
+#main5{
+    display: flex;
+    justify-content: center;
+    
+    background-color: #df2020;
+    border-radius: 10px;
+}
+.imggauche{
+    margin-left: 20px;
+}
+.food:hover{
+    margin-bottom: 20px;
+}
+
+#main5 img{
+    width: 25px;
+    height: 25px;
+}
+#all{
+    border: 1px solid red;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 50px;
+}
+.food{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.food p{
+    color: whitesmoke;
+    text-transform: capitalize;
+    margin-left:10px ;
+}
+.roug{
+    font-size: 20px;
+    color: #df2020;
+    font-weight: bolder;
+}
+
+/*gestion du menu 6*/
+#main6{
+    
+   margin-top: 30px;
+
+}
+.downimage {
+    margin-top: 20px;
+}
+.poulet{
+    display: flex;
+    justify-content:space-between;
+    width:100%;
+
+}
+
+.poulets{
+    border: 1px solid red;
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.poulets p,.boisson p{
+    text-transform: capitalize;
+}
+.poulets img{
+    width: 50%;
+    height: 50%;
+}
+.price,.pricedrink{
+    border: 1px red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.bouton{
+    background-color: #df2020;
+    color: whitesmoke;
+    align-self: center;
+    font-size: 15px;
+    padding: 10px;
+    width: 40%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 12px;
+}
+.poulets > p,.boisson > p{
+    font-size:larger;
+    color: #333;
+}
+
+
+
+/*gestion du menu 8*/
+#main8{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    
+
+}
+#main8 img{
+    width: 150px;
+    height: 200px;
+}
+.boisson{
+    border: 1px solid red;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

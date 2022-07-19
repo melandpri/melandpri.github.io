@@ -1,0 +1,114 @@
+/*ceci me permet  d' utiliser ma police roboto en local */
+@font-face {
+	font-family: Roboto;
+	src:url(../Roboto/Roboto-Regular.ttf)
+}
+
+@font-face {
+	font-family: Roboto-bold;
+	src:url(../Roboto/Roboto-Bold.ttf)
+}
+
+#container{
+    width:992px;
+    margin: 0 auto;
+}
+
+* {
+	font-family: Roboto;
+	box-sizing: border-box;
+}
+/*toujours mettre une image dans un div et mettre dans la balise immg  l' attribut width:100%,et c' est ce div qui controlera notre image*/ 
+
+header{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;	
+	align-items: center;
+
+}
+.menu{
+    display: none;
+}
+
+#logo_nom > div {/*au premier enfant de l' id logo_nom on appliquera un width de 62px*/
+	width: 62px;
+}
+
+#logo_nom{
+	display:flex ;
+	flex-direction: column;
+	align-items: center;
+}
+#logo_nom h5{
+	margin: 0;
+}
+
+#menu_principal{
+	margin-top: 15px;
+
+
+}
+#user2{
+	display: flex;
+	justify-content:center;
+	align-items: flex-end;
+	margin-bottom: 10px;
+
+
+}
+#user2 div{/*ceci perment dappliquer la marge uniquement a mon div*/
+	margin:0 3px;
+}
+#menu{
+	display: none;
+}
+
+
+
+ul li {
+	list-style: none;	
+	text-decoration: none;
+	color:#212245;
+	font-weight: bolder;
+	font-size: 25px;
+	display: inline-block;
+	margin:25px ;
+	text-transform: capitalize;
+}
+ul li:hover{
+	color: #df2020;
+}
+
+#user2 .logo {
+	position:relative;
+}
+
+#user2 .logo + .logo {/*identifiant user il appliquera ce style a chaque classe logo contenu dans user2 uniquement*/
+	margin-left: 24px;
+}
+
+#user2 .indice {
+	position: absolute;
+	top: -20px;
+	right: -24px;
+
+}
+
+.indice div {
+	display: flex;
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+	background-color: #df2020;
+	color: white;
+	font-weight: 600;
+	align-items: center;
+	justify-content: center;
+}
+
+#user2 .logo .icon {
+	font-size: 24px;
+}
+

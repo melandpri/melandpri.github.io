@@ -1,0 +1,66 @@
+body{
+    
+    width:992px;
+    margin: 0 auto;
+
+}
+
+.connexion{
+    width: 100%;
+    height: 20vh;
+    border: 1px solid red;
+}
+
+
+.connexion p {
+    /*color: white;*/
+    font-size: xx-large;
+    margin-left: 100px;
+}
+.forminscript {
+    border: 1px solid;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+    margin: 0 auto;
+    background-color:#f1bfbf ;
+    margin-top: 70px;
+    width: 30%;
+    border: none;
+}
+.same{
+    width: 100%;
+    font-size: 18px;
+}
+.entree {
+    width: 100%;
+    margin-top: 5px;
+    height: 7vh;
+    background-color: #f1bfbf;
+
+
+}
+#seul{
+    text-align: center;
+    color: #333;
+    font-size: medium;
+    font-weight: bolder;
+}
+.ville{
+    border: red;
+}
+.bouton{
+    display: flex;
+}
+
+button{
+    align-self: center;
+    color: white;
+    background-color: #df2020;
+    margin: 0 auto;
+    font-size: 16px;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}

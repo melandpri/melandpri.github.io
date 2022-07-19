@@ -1,0 +1,230 @@
+
+
+@media screen and (max-width:767px) {
+    #container{
+        width: 100%;
+        padding: 16px;
+    }
+    body{
+        margin: 0 auto;
+    }
+
+    #main2{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+    }
+    .bloc_eat{
+        width: 100%;
+        margin-top: 50px;
+    }
+}
+
+
+
+/*header*/
+@media screen and (max-width:767px) {
+
+  
+
+
+	nav {
+		display: none;
+	}
+	#menu{
+		display: block;
+		font-size: 30px;
+	}
+
+	#logo_nom h5{
+		font-size: 1rem;
+	}
+    /* #com{
+        margin-top: px;
+    } */
+    .fri{
+        font-size: 1px;
+        text-align: center;
+    }
+	
+
+	
+}
+
+
+/*main*/
+/*responsive du premier menu */
+@media screen and (max-width:767px) {
+   
+    #main1{
+        flex-wrap: wrap;
+       
+    }
+    #main1_gauche, #main1_droite {
+        width: 100%;
+    
+    }
+    #main1_gauche > button{
+        margin: 0 auto;
+    }
+
+    #main1_gauche  > .com{
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+    }
+
+ 
+    .coller{
+        text-align: center;
+    }
+    #main1_gauche > .coller > h1{
+        font-size:large;
+    }
+    #main1_gauche > .coller > h3{
+        font-size:smaller;
+    }
+    #main1_gauche .slogan{
+        text-align: center;
+    }
+    #livraison{
+        width: 100%;
+        margin: 0 auto;
+    }
+    #main1_droite{
+        margin-top: 30px;
+    }
+    
+   
+    .fri{
+        font-size:35px ;
+    }
+   
+
+    .livr_img p{
+        font-size: 30px;
+    }
+	
+
+    
+    #main2{
+        max-width: 767px;
+        flex-wrap: wrap;
+    }
+    
+  
+    .rouge{
+        font-size: 20px;
+    }
+    .blu{
+        font-size: 15px;
+    }
+    .lorem{
+        font-size: 10px;
+        text-align: center;
+    }
+    
+
+    #main2{
+        flex-wrap: wrap;
+        margin-top: 5px;
+    }
+    .service{
+        width: 100%;
+    }
+
+    #main5{
+        width: 100%;
+       
+    }
+    #all{
+        margin-right: 20px;
+        padding: 15px;
+    }
+    #main6,#main8{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .poulet{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .poulets{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .boisson{
+        width: 100%;
+    }
+    hr{
+        display: none;
+    }
+    #mail{
+        width:100%;
+    }
+
+
+    .col{
+    line-height: 0.5%;
+}
+#main8 .boisson{
+    margin-top: 20px;
+}
+
+#container10{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 15px;
+}
+#pieds1,#pieds2,#pieds3,#pieds4,.pied{
+    width: 70%;
+    margin-left: 50px;
+    
+}
+.pied{
+    margin-top: 50px;
+}
+/*#pieds3{
+    padding-left: 10px;
+}
+
+
+.pied{
+    width: 50%;
+    text-align: start;
+    margin-top: 100px;
+    margin-left: 0px;
+    
+}*/
+.pied h5{
+    margin: 0;
+    font-size: 25px;
+    
+    
+}
+#mail{
+    width: 100%;
+    margin-top: 0px;
+    
+}
+.reseau {
+    margin-top: 50px;
+    text-align: left;
+     
+}
+    
+
+	
+}

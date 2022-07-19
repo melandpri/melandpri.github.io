@@ -1,0 +1,63 @@
+.connexion{
+    width: 100%;
+    height: 20vh;
+    border: 1px solid red;
+}
+body{
+    
+        width:992px;
+        margin: 0 auto;
+    
+}
+
+
+.connexion p {
+
+    /*color: white;*/
+    font-size: xx-large;
+    margin-left: 100px;
+}
+
+.formconnect {
+    border: 1px solid;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    margin: 0 auto;
+    background-color:#f1bfbf ;
+    margin-top: 50px;
+    width: 30%;
+    border: none;
+}
+
+.same{
+    width: 100%;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.entree {
+    width: 100%;
+    margin-top: 5px;
+    height: 5vh;
+    background-color: #f1bfbf;
+
+
+}
+
+
+.bouton{
+    display: flex;
+}
+
+button{
+    align-self: center;
+    color: white;
+    background-color: #df2020;
+    margin: 0 auto;
+    font-size: 16px;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
