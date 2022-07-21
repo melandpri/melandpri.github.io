@@ -1,6 +1,126 @@
+/*ceci me permet  d' utiliser ma police roboto en local */
+@font-face {
+	font-family: Roboto;
+	src:url(../Roboto/Roboto-Regular.ttf)
+}
+
+@font-face {
+	font-family: Roboto-bold;
+	src:url(../Roboto/Roboto-Bold.ttf)
+}
+
+#container{
+    width:992px;
+    margin: 0 auto;
+}
+
+* {
+	font-family: Roboto;
+	box-sizing: border-box;
+}
+
 body{
     
     width:992px;
     margin: 0 auto;
 
 }
+
+.connexion{
+    width: 100%;
+    height: 20vh;
+    border: 1px solid red;
+}
+
+.connexion p {
+
+    /*color: white;*/
+    font-size: xx-large;
+    margin-left: 100px;
+}
+div input{
+    border: 1px solid #df2020;
+    margin-top: 80px;
+    padding-left:50px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    width: 40%;
+}
+.repas{
+    margin-top: 50px;
+    
+}
+
+.food1 > div,.food2 > div,.food3> div,.food4 > div{
+    width:200px;
+    margin-top:10px;
+}
+
+.bloc_repas1{
+    border: 1px solid red;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.food1 > p,.food2 > p,.food3 > p,.food4 > p{
+    font-size: 20px;
+    color: #333;
+}
+.food1,.food2,.food3,.food4{
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #df2020;
+}
+.price{
+    border: 1px solid red;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.food1,.food2,.food3,.food4 p{
+    /*color: whitesmoke;*/
+    text-transform: capitalize;
+}
+.roug{
+    font-size: 20px;
+    color: #df2020;
+    font-weight: bolder;
+}
+.price > button{
+    background-color: #df2020;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 10px;
+    padding:5px;
+    width: 40%;
+}
+
+
+.orientation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-top:40px;
+}
+.orientation button{
+    background-color: #212245;
+    color: white;
+    border: none;
+    border-radius:60px;
+    padding: 10px;
+    font-size: 18px;
+    align-items: center;
+    margin:35px;
+
+}
+
+
