@@ -59,7 +59,7 @@
 
     </div>
     <div class="forminscript">
-        <form action="">
+        <form action="" name="RegForm">
             <div>
                 <label for="prenom" class="same">Prénom</label>
                 <input type="text" name="prenom" class="entree" required>
@@ -77,8 +77,8 @@
                 <input type="password" name="pass" class="entree" required>
             </div>
             <div>
-                <label for="pass" class="same">Confirmation du mot de passe </label>
-                <input type="password" name="pass" class="entree" required>
+                <label for="passe" class="same">Confirmation du mot de passe </label>
+                <input type="password" name="passe" class="entree" required>
             </div>
             <p>Vous residez dans quel quartier de la ville de yaoundé ?</p>
             <div>
@@ -91,10 +91,10 @@
 
             </div>
             <p>
-                <input type="checkbox" name="condition" id="condition"> <label for="condition">j'ai lu et accepté les conditions d' utilisation</label>
+                <input type="checkbox" name="condition" id="condition" required> <label for="condition">j'ai lu et accepté les conditions d' utilisation</label>
             </p>
             <div class="bouton">
-                <button>Inscription</button>
+                <button id="inscription">Inscription</button>
             </div>
 
             
@@ -164,6 +164,6 @@
 
     </footer>
 
-    
+    <script src="./Js/inscription.js"></script>
 </body>
 </html>
