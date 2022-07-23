@@ -17,6 +17,12 @@ btnInscription.addEventListener(
         surname.focus();
         return false; 
     }  
+    if (name.value == "")                                  
+    { 
+        alert("Mettez votre nom"); 
+        name.focus();
+        return false; 
+    }  
     if (mail.value == "")                                   
     { 
         alert("Mettez une adresse email valide."); 
@@ -36,24 +42,30 @@ btnInscription.addEventListener(
         return false; 
     } 
     
-    if (pass.value == "")                        
+    if (password.value == "")                        
     { 
         alert("Saisissez votre mot de passe"); 
-        pass.focus(); 
+        password.focus(); 
         return false; 
     } 
+    if (password.value.length < 8) {
+        document.getElementById('error').innerHTML = "votre mot de passe est inférieur a 8";
+        password.focus();
+        return false;
+        
+    }
 
-    if (passe.value == "")                        
+    if (confpass.value == "")                        
     { 
         alert("Saisissez votre mot de passe"); 
         password.focus(); 
         return false; 
     }
 
-    if (passe.value != pass.value)                        
+    if (confpass.value != password.value)                        
     { 
         alert("Saisissez votre mot de passe ,saisi plus haut!!!"); 
-        passe.focus(); 
+        confpass.focus(); 
         return false; 
     } 
      
