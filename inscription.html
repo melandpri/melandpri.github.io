@@ -54,57 +54,59 @@
             
             
     </header>
-    <div class="connexion">
-        <p>Inscription</p>
+    <div class="bloc_inscription">
+        <div class="connexion">
+            <p>Inscription</p>
 
+        </div>
+        <div class="forminscript">
+            <form action="" name="RegForm">
+                <div>
+                    <label for="prenom" class="same">Prénom</label>
+                    <input type="text" name="prenom" class="entree" required>
+                </div>
+                <div>
+                    <label for="nom" class="same">Nom</label>
+                    <input type="text" name="nom" class="entree" required>
+                </div>
+                <div>
+                    <label for="mail" class="same">Email</label>
+                    <input type="email" name="mail" class="entree" required>
+                </div>
+                <div>
+                    <label for="pass" class="same">Mot de passe </label>
+                    <input type="password" name="pass" class="entree" required>
+                </div>
+                <span id="error"> </span>
+
+                <div>
+                    <label for="passe" class="same">Confirmation du mot de passe </label>
+                    <input type="password" name="passe" class="entree" required>
+                </div>
+                <p>Vous residez dans quel quartier de la ville de yaoundé ?</p>
+                <div>
+                    <input type="radio"  name="ville1" class="ville"> <label for="ville1">Bastos</label>
+                    <input type="radio" name="ville2" class="ville">  <label for="ville2">Mendong</label>
+                    <input type="radio" name="ville3" class="ville"> <label for="ville3">Odza</label>
+                    <input type="radio" name ="ville4" class="ville"> <label for="ville4">Ngoa</label>
+                    <input type="radio" name="ville5" class="ville"> <label for="ville5">Essos</label>
+                    <input type="radio" for="ville6" class="ville"> <label for="ville6">Montee jouvence</label>
+
+                </div>
+                <p>
+                    <input type="checkbox" name="condition" id="condition" required> <label for="condition">j'ai lu et accepté les conditions d' utilisation</label>
+                </p>
+                <div class="bouton">
+                    <button id="inscription">Inscription</button>
+                </div>
+
+                
+            </form>
+        </div>
+        <p id="seul">
+            vous avez déja un compte ?connectez vous  <a href="connexion.html">ici</a>
+        </p>
     </div>
-    <div class="forminscript">
-        <form action="" name="RegForm">
-            <div>
-                <label for="prenom" class="same">Prénom</label>
-                <input type="text" name="prenom" class="entree" required>
-            </div>
-            <div>
-                <label for="nom" class="same">Nom</label>
-                <input type="text" name="nom" class="entree" required>
-            </div>
-            <div>
-                <label for="mail" class="same">Email</label>
-                <input type="email" name="mail" class="entree" required>
-            </div>
-            <div>
-                <label for="pass" class="same">Mot de passe </label>
-                <input type="password" name="pass" class="entree" required>
-            </div>
-            <span id="error"> </span>
-
-            <div>
-                <label for="passe" class="same">Confirmation du mot de passe </label>
-                <input type="password" name="passe" class="entree" required>
-            </div>
-            <p>Vous residez dans quel quartier de la ville de yaoundé ?</p>
-            <div>
-                <input type="radio"  name="ville1" class="ville"> <label for="ville1">Bastos</label>
-                <input type="radio" name="ville2" class="ville">  <label for="ville2">Mendong</label>
-                <input type="radio" name="ville3" class="ville"> <label for="ville3">Odza</label>
-                <input type="radio" name ="ville4" class="ville"> <label for="ville4">Ngoa</label>
-                <input type="radio" name="ville5" class="ville"> <label for="ville5">Essos</label>
-                <input type="radio" for="ville6" class="ville"> <label for="ville6">Montee jouvence</label>
-
-            </div>
-            <p>
-                <input type="checkbox" name="condition" id="condition" required> <label for="condition">j'ai lu et accepté les conditions d' utilisation</label>
-            </p>
-            <div class="bouton">
-                <button id="inscription">Inscription</button>
-            </div>
-
-            
-        </form>
-    </div>
-    <p id="seul">
-        vous avez déja un compte ?connectez vous  <a href="connexion.html">ici</a>
-    </p>
     <footer>
         <div id="container10">
             <div class="pied">
