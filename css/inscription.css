@@ -1,4 +1,26 @@
-body{
+/*ceci me permet  d' utiliser ma police roboto en local */
+@font-face {
+	font-family: Roboto;
+	src:url(../Roboto/Roboto-Regular.ttf)
+}
+
+@font-face {
+	font-family: Roboto-bold;
+	src:url(../Roboto/Roboto-Bold.ttf)
+}
+* {
+	font-family: Roboto;
+	box-sizing: border-box;
+}
+.bloc_connexion{
+    
+    width:992px;
+    margin: 0 auto;
+
+}
+
+
+.bloc_inscription,header{
     
     width:992px;
     margin: 0 auto;
@@ -7,7 +29,7 @@ body{
 
 .connexion{
     width: 100%;
-    height: 40vh;
+    height: 200px;
     border: 1px solid red;
     background-image: url(../images/IMG-20220722-WA0002.jpg);
     background-repeat: no-repeat;
